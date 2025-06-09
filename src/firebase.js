@@ -4,13 +4,13 @@ import { getFirestore } from "firebase/firestore";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCGgGthvwRdMJ8e9Ugx_Fwoj9LjpRhiz4g",
-  authDomain: "contact-game-7e850.firebaseapp.com",
-  projectId: "contact-game-7e850",
-  storageBucket: "contact-game-7e850.firebasestorage.app",
-  messagingSenderId: "143062958990",
-  appId: "1:143062958990:web:34b5420cd91bdfc357dadf",
-  measurementId: "G-7GJXF56Y1Z"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 // Initialize Firebase
