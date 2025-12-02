@@ -1,3 +1,24 @@
+# --- BACKEND (Python) ---
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# --- FRONTEND (Node/Next.js) ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- GENERAL ---
 .DS_Store
-node_modules/
-.env
+.vscode/
+.idea/
